@@ -196,7 +196,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-02-18 12:37:15" itemprop="dateModified" datetime="2020-02-18T12:37:15+08:00">2020-02-18</time>
+                <time title="修改时间：2020-04-08 00:09:19" itemprop="dateModified" datetime="2020-04-08T00:09:19+08:00">2020-04-08</time>
               </span>
 
           
@@ -211,7 +211,8 @@
 
       
           <h2 id="你好呀"><a href="#你好呀" class="headerlink" title="你好呀"></a>你好呀</h2><hr>
-<p>IVWEB 玩转 WASM 系列-WEBGL YUV渲染图像实践<br>发表于 2019-12-14   |   分类于 前端   |   热度40 ℃<br>| 字数统计 5,369 字 | 阅读时长 22 分钟<br>最近团队在用 WASM + FFmpeg 打造一个 WEB 播放器。我们是通过写 C 语言用 FFmpeg 解码视频，通过编译 C 语言转 WASM 运行在浏览器上与 JavaScript 进行通信。默认 FFmpeg 去解码出来的数据是 yuv，而 canvas 只支持渲染 rgb，那么此时我们有两种方法处理这个yuv，第一个使用 FFmpeg 暴露的方法将 yuv 直接转成 rgb 然后给 canvas 进行渲染，第二个使用 webgl 将 yuv 转 rgb ，在 canvas 上渲染。第一个好处是写法很简单，只需 FFmpeg 暴露的方法将 yuv 直接转成 rgb ，缺点呢就是会耗费一定的cpu，第二个好处是会利用 gpu 进行加速，缺点是写法比较繁琐，而且需要熟悉 WEBGL 。考虑到为了减少 cpu 的占用，利用 gpu 进行并行加速，我们采用了第二种方法。
+<p>现在centos安装tomcat，通过反向代理访问tomcat首页、<br>1.(<a href="http://tomcat.apache.org/" target="_blank" rel="noopener">http://tomcat.apache.org/</a> “tomcat官网”)下载最新的tomcat 放入<code>/usr/local/src</code>中并解压<br><img src="https://oscimg.oschina.net/oscnet/up-c4a6207e7cb41c95a19c202636a5cd4cecd.png" alt="">  </p>
+<p>2.启动tomcat  在bin中执行<code>./startup.sh</code>命令<br><img src="https://oscimg.oschina.net/oscnet/up-e218eed91c8a48a6f96be3c5b5ec80c3dc2.png" alt=""><br>也可以在logs文件中查看tomcat启动情况<br><img src="https://oscimg.oschina.net/oscnet/up-38948607f9911cf4d87e3db5366b1fcbfae.png" alt=""></p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2020/02/17/helloworld1/#more" rel="contents">
